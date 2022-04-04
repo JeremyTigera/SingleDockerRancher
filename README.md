@@ -32,3 +32,14 @@ Step by Step Rancher install
 ```
 https://phoenixnap.com/kb/install-rancher-on-ubuntu
 ```
+
+## Install Rancher as a container
+Ubuntu is installed on Azure and accessible via ssh on its public IP.
+We will proceed with the default installation with self-signed certificate.
+```
+docker run -d --restart=unless-stopped \
+  -p 80:80 -p 443:443 \
+  --privileged \
+  rancher/rancher:latest
+```
+
