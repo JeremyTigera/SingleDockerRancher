@@ -57,3 +57,6 @@ docker run -d --restart=unless-stopped \
 
 ##Access Rancher Web Page
 Use your Azure public IP with port 80.
+
+##Rancher WebUI
+First you will be ask to generate your bootstrap password
