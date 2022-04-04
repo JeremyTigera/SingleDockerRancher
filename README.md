@@ -60,3 +60,8 @@ Use your Azure public IP with port 80.
 
 ## Rancher WebUI
 First you will be ask to generate your bootstrap password
+
+![image](https://user-images.githubusercontent.com/101111449/161516582-7747bcc4-e8f3-43d3-8285-0f499b96fa77.png)
+
+
+
