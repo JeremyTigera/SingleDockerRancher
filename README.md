@@ -39,6 +39,13 @@ Install Docker
 ```
 sudo apt install docker.io
 ```
+Enable it
+```
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo systemctl status docker
+```
+
 We will proceed with the default installation with self-signed certificate.
 Install Rancher
 ```
@@ -48,3 +55,5 @@ docker run -d --restart=unless-stopped \
   rancher/rancher:latest
 ```
 
+##Access Rancher Web Page
+Use your Azure public IP with port 80.
