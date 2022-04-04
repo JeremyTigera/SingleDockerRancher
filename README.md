@@ -35,7 +35,12 @@ https://phoenixnap.com/kb/install-rancher-on-ubuntu
 
 ## Install Rancher as a container
 Ubuntu is installed on Azure and accessible via ssh on its public IP.
+Install Docker
+```
+sudo apt install docker.io
+```
 We will proceed with the default installation with self-signed certificate.
+Install Rancher
 ```
 docker run -d --restart=unless-stopped \
   -p 80:80 -p 443:443 \
