@@ -78,3 +78,11 @@ You should now see the name of your service principal under Azure Active Directo
 - Click the name of your service principal. Take note of the **tenant ID** and **application ID** (also called **app ID** or **client ID**) so that you can use it when provisioning your AKS cluster.
 - Then click C**ertificates & secrets**.
 - Click **New client secret**. Enter a short description, pick an expiration time, and click **Add**. Take note of the **client secret** so that you can use it when provisioning the AKS cluster.
+
+Now we need to add a role for this service account.
+- Go in **Subscription**
+- Click Access Control (**IAM**).
+- In the Add role assignment section, click **Add**.
+- In the Role field, select a role that will have access to AKS. For example, you can use the **Contributor** role, which has permission to manage everything except for giving access to other users.
+- In the Assign access to field, select **service principal**.
+- In the Select field, select the name of your **service principal** and click Save.
