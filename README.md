@@ -64,6 +64,8 @@ First you will be ask to generate your bootstrap password
 ![image](https://user-images.githubusercontent.com/101111449/161516582-7747bcc4-e8f3-43d3-8285-0f499b96fa77.png)
 
 ## Integrate AKS in Rancher
+
+### Create the Service Principal in AKS
 In order to deploy and manage an AKS Cluster within Rancher, we need to create the credentials in Azure and configure them in Rancher.
 
 - Go to the Microsoft **Azure Portal home** page.
@@ -86,3 +88,5 @@ Now we need to add a role for this service account.
 - In the Role field, select a role that will have access to AKS. For example, you can use the **Contributor** role, which has permission to manage everything except for giving access to other users.
 - In the Assign access to field, select **service principal**.
 - In the Select field, select the name of your **service principal** and click Save.
+
+### Add the Service Principal in Rancher
