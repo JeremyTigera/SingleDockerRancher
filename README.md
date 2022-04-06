@@ -88,3 +88,13 @@ Now we need to add a role for this service account.
 - In the Select field, select the name of your **service principal** and click Save.
 
 ### Add the Service Principal in Rancher
+
+- Select **Cluster Management** > **Cloud Credentials** > **Create** > **Azure**
+![image](https://user-images.githubusercontent.com/101111449/161957163-0d1d9fc5-d084-4775-bf1f-02977738da69.png)
+
+Use your subscription ID, tenant ID, client ID, and client secret to give your cluster access to AKS. If you don’t have all of that information, you can retrieve it using these instructions:
+
+- **Tenant ID**: To get the Tenant ID, you can go to the Azure Portal, then click Azure Active Directory, then click Properties and find the Tenant ID field.
+- **Client ID**: To get the Client ID, you can go to the Azure Portal, then click Azure Active Directory, then click Enterprise applications. Click All applications. Select your application, click Properties, and copy the application ID.
+- **Client secret**: If you didn’t copy the client secret when creating the service principal, you can get a new one if you go to the app registration detail page, then click Certificates & secrets, then click New client secret.
+- **Subscription ID**: You can get the subscription ID is available in the portal from All services > Subscriptions.
