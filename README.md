@@ -8,19 +8,19 @@ How to install and configure a single Rancher server node with Docker in Ubuntu
 - A cloud or vSphere environment for K8s deployement and management (I use Azure)
 
 ## Resources
-Install Ubuntu server on Azure /br
+Install Ubuntu server on Azure<br/>
 https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal
 
-Install Docker on Ubuntu
+Install Docker on Ubuntu<br/>
 https://docs.docker.com/engine/install/ubuntu/
 
-Deploy Rancher as a container
+Deploy Rancher as a container<br/>
 https://rancher.com/docs/rancher/v2.5/en/installation/other-installation-methods/single-node-docker/
 
-Create an AKS cluster via Rancher
+Create an AKS cluster via Rancher<br/>
 https://rancher.com/docs/rancher/v2.5/en/cluster-provisioning/hosted-kubernetes-clusters/aks/
 
-Step by Step Rancher install
+Step by Step Rancher install<br/>
 https://phoenixnap.com/kb/install-rancher-on-ubuntu
 
 ## Install Rancher as a container
