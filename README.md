@@ -8,7 +8,7 @@ How to install and configure a single Rancher server node with Docker in Ubuntu
 - A cloud or vSphere environment for K8s deployement and management (I use Azure)
 
 ## Resources
-Install Ubuntu server on Azure
+Install Ubuntu server on Azure /br
 https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal
 
 Install Docker on Ubuntu
